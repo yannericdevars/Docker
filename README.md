@@ -1,6 +1,6 @@
 # Docker 
 
-This is a simple file to initialise a docker container for a Symfony 3 project
+In the root folder, this is a simple group files to initialise a minimum docker container for a Symfony 3 project
 
 Install 
 
@@ -11,3 +11,20 @@ Install
 - Redis
 
 You must start all servers by yourself
+
+## Build
+
+```sudo docker build -t server . ```
+
+## Launch
+
+```sudo docker run -i -t server /bin/bash ```
+
+## Start servers
+
+- /etc/init.d/apache2 start
+- /etc/init.d/mysql start
+- redis-server /etc/redis/redis.conf (Your conf must set : daemonize yes)
+- mongod
+
+
