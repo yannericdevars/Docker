@@ -51,5 +51,5 @@ RUN rm -Rf /etc/apache2/sites-available/000-default.conf
 ADD 000-default.conf /etc/apache2/sites-available
 
 # Install NoSql Databases
-RUN apt-get install -y mongod
+RUN apt-get install -y mongodb
 RUN apt-get install -y redis-server
