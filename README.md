@@ -20,6 +20,14 @@ You must start all servers by yourself
 
 ```sudo docker run -i -t server /bin/bash ```
 
+## Launch with demon mode
+
+```sudo docker run -d -P --name sfProject server ```
+
+## If you whant to connect in SSH
+
+```sudo docker port test_sshd 22 ```
+
 ## Commands
 
 ### List processes
@@ -28,7 +36,7 @@ You must start all servers by yourself
 ### Obtain IP
 ```sudo docker inspect <ID> ```
 
-## Start servers
+## Start servers (when you are connected in container)
 
 - /etc/init.d/apache2 start
 - /etc/init.d/mysql start
