@@ -53,3 +53,6 @@ ADD 000-default.conf /etc/apache2/sites-available
 # Install NoSql Databases
 RUN apt-get install -y mongodb
 RUN apt-get install -y redis-server
+
+# Allow sync capacity with local folder
+RUN apt-get install -y rsync
