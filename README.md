@@ -1,6 +1,8 @@
 # Docker for Symfony 3
 
-In the root folder, this is a simple group files to initialise a minimum docker container for a Symfony 3 project
+In the root folder, this is a simple group files to initialise a minimum docker container for a Symfony 3 project, for simple training.
+
+If you want a more realistic architecture, take a look in multi-servers folder :)
 
 Install 
 
