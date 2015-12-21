@@ -1,0 +1,8 @@
+apache:
+  build: apache/
+
+redis:
+  build: redis/
+
+mysql:
+  build: mysql/
