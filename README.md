@@ -1,4 +1,4 @@
-# Docker 
+# Docker for Symfony 3
 
 In the root folder, this is a simple group files to initialise a minimum docker container for a Symfony 3 project
 
