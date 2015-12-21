@@ -27,6 +27,8 @@ You must start all servers by yourself
 ## If you want to connect in SSH (You must activate the port)
 
 ```sudo docker port sfProject 22 ```
+```ssh root@<IP> ```
+The password is : admin
 
 ## Commands
 
