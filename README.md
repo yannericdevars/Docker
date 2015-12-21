@@ -3,6 +3,7 @@
 In the root folder, this is a simple group files to initialise a minimum docker container for a Symfony 3 project, for simple training.
 
 If you want a more realistic architecture, take a look in multi-servers folder :)
+In good practice, you must separate all elements : web server, databases etc. ... And have minimum things on each other
 
 Install 
 
