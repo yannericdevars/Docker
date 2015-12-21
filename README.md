@@ -24,9 +24,9 @@ You must start all servers by yourself
 
 ```sudo docker run -d -P --name sfProject server ```
 
-## If you whant to connect in SSH
+## If you whant to connect in SSH (You must activate the port)
 
-```sudo docker port test_sshd 22 ```
+```sudo docker port sfProject 22 ```
 
 ## Commands
 
