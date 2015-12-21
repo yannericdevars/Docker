@@ -32,8 +32,9 @@ RUN chmod a+x /usr/local/bin/symfony
 RUN cd /var/www/html && symfony new .
 RUN mkdir -p /var/www/html/var/cache
 RUN mkdir -p /var/www/html/var/logs
-RUN chmod -Rf 777 /var/www/html/var/cache
-UN apt-get install -y libapache2-mod-php5 
+RUN chmod -Rf 777 /var/www/html/var/cache/*
+RUN chmod -Rf 777 /var/www/html/var/logs/*
+RUN apt-get install -y libapache2-mod-php5 
 RUN apt-get install -y php5-mysql
 RUN rm -Rf /var/www/html/app/config/parameters.yml
 ADD parameters.yml /var/www/html/app/config

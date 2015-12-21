@@ -14,4 +14,10 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
 
+RUN apt-get install -y vim 
+
 RUN apt-get install -y redis-server
+
+EXPOSE 6379
+
+ENTRYPOINT  ["/usr/bin/redis-server"]
