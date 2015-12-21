@@ -20,6 +20,14 @@ You must start all servers by yourself
 
 ```sudo docker run -i -t server /bin/bash ```
 
+## Commands
+
+### List processes
+```sudo docker ps ```
+
+### Obtain IP
+```sudo docker inspect <ID> ```
+
 ## Start servers
 
 - /etc/init.d/apache2 start
