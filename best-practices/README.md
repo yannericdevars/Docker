@@ -21,7 +21,7 @@ I created " sh " to automatize things
 
 We need also a server
 
-sudo docker run -it --rm --name my-apache -v /var/www:/usr/local/apache2/htdocs/ httpd:2.4
+docker run -it --rm --name my-apache -v /var/www:/usr/local/apache2/htdocs/ httpd:2.4
 
 - We started him in interactive mode to see the logs
 - We can develop localy in /var/www and see the changes on the distant server
