@@ -53,3 +53,4 @@ ADD 000-default.conf /etc/apache2/sites-available
 
 # Allow sync capacity with local folder
 RUN apt-get install -y rsync
+
