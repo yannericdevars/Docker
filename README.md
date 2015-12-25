@@ -49,4 +49,9 @@ You must start all servers by yourself
 - redis-server /etc/redis/redis.conf (Your conf must set : daemonize yes)
 - mongod
 
+# General commands
+
+- docker stop $(docker ps -a -q)
+- docker rm $(docker ps -a -q)
+
 
