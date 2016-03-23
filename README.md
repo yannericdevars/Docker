@@ -54,4 +54,10 @@ You must start all servers by yourself
 - docker stop $(docker ps -a -q)
 - docker rm $(docker ps -a -q)
 
+# Lists all Ips of containers
+
+docker inspect -f '{{.Name}} - {{.NetworkSettings.IPAddress }}' $(docker ps -aq)
+
+
+
 
